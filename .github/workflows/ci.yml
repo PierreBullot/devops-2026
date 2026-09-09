@@ -15,4 +15,4 @@ jobs:
         run: echo "La pipeline github actions fonctionne!"
 
       - name: Deuxième message
-        run: echo "test"
+        run: echo "test pull request"

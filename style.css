@@ -16,9 +16,12 @@
 img {
     max-width: 250px;
     max-height: 250px;
+    min-width: 200px;
+    min-height: 200px;
     resize: both;
 }
 
 p {
-    margin-right: 20px;
+    margin: 5px;
+    margin-left: 20px;
 }

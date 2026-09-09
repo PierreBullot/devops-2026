@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Récupérer le code
-        run: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Vérifier que le fichier existe
         run: test -f index.html
